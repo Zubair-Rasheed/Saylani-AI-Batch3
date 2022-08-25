@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Operator</h1>
+    <input type="button" name="" id="btn1" value="Add Sum">
+    <input type="button" name="" id="btn2" value="Add Substract">
+    <input type="button" name="" id="btn3" value="Add Multiply">
+    <input type="button" name="" id="btn4" value="Add Divide">
+
+    <script>
+        let num = 4;
+        document.writeln("num"+num);
+        let btn1 = document.getElementById("btn1");
+        btn1.addEventListener("click",function(){
+            num = num+4;
+            alert("result = " +num);
+        });
+
+        let btn2 = document.getElementById("btn2");
+        btn2.addEventListener("click",function(){
+            num = num - 4;
+            alert("result = " +num);
+        });
+
+        
+        let btn3 = document.getElementById("btn3");
+        btn3.addEventListener("click",function(){
+            num = num * 4;
+            alert("result = " +num);
+        });
+
+        
+        let btn4 = document.getElementById("btn4");
+        btn4.addEventListener("click",function(){
+            num = num / 4;
+            alert("result = " +num);
+        });
+        
+    </script>
+
+            C + O &rarr CO <sub>2</sub>
+</body>
+</html>
